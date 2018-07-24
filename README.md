@@ -80,3 +80,7 @@ https://developer.microsoft.com/zh-tw/windows/downloads/sdk-archive
  Dynamic -> P to P Insurance
 UJO -> Music Store
 Golem ->Super computer  
+
+#Soft Fork vs hard Fork
+Soft -> Software Upgrade
+Hard -> whole new Branch
