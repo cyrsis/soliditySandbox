@@ -57,6 +57,12 @@ Import Account
 
 `npm install --global --production windows-build-tools`
 
+
+
+`npm -g install npm@next`
+
+`npm install --save web3@1.0.0-beta.26`
+
 `git clone https://github.com/trufflesuite/ganache.git`
 
 `cd ganache`
