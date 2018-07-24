@@ -5,6 +5,7 @@ import 'zeppelin-solidity/contracts/token/ERC721/ERC721Token.sol';
 
 contract RoboHashToken is ERC721Token("RoboHashToken", "RHT") {
 
+
     mapping(uint256 => string) internal tokenIdToName;
     mapping(string => uint256) internal nameToTokenId;
 
