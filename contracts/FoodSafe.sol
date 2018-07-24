@@ -1,4 +1,4 @@
-pragma solidity ^0.4.;
+pragma solidity 0.4.24;
 
 contract FoodSafe {
 
@@ -12,7 +12,7 @@ contract FoodSafe {
 
     }
 
-    event (address bidder, uint amount);
+    event happy(address bidder, uint amount);
 
 
 }
