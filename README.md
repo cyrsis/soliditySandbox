@@ -87,6 +87,11 @@ https://developer.microsoft.com/zh-tw/windows/downloads/sdk-archive
 UJO -> Music Store
 Golem ->Super computer  
 
-#Soft Fork vs hard Fork
+##Soft Fork vs hard Fork
+
 Soft -> Software Upgrade
+
 Hard -> whole new Branch
+
+##ERC721 Tokens is the for gaming (non-fund)
+

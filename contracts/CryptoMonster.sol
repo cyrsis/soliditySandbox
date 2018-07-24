@@ -29,7 +29,7 @@ contract CryptoMonster is ERC721Token {
     }
 
     function battle(uint _monsterID, uint _targetID) onlyOwnerOf(_monsterID) {
-     
+
     }
 
 }
