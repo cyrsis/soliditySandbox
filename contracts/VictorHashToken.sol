@@ -3,8 +3,7 @@ pragma solidity ^0.4.17;
 
 import 'zeppelin-solidity/contracts/token/ERC721/ERC721Token.sol';
 
-contract RoboHashToken is ERC721Token("RoboHashToken", "RHT") {
-
+contract VictorHashToken is ERC721Token("VictorHashToken", "VHT") {
 
     mapping(uint256 => string) internal tokenIdToName;
     mapping(string => uint256) internal nameToTokenId;
