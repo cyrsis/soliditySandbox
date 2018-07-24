@@ -65,4 +65,9 @@ Import Account
 
 `npm start`
 
+##Overcome Ethe
+ Private Data on public chain - extra encryption
+ Big File -interplanetary file System
+ Scale - Ethereum Sharing
+ Private Chain - Azure
 
