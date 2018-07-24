@@ -53,7 +53,7 @@ RPC
 
 Import Account 
 
-##Window Ganache Setup
+##Window Ganache Setup (make sure run in nodejs command)
 
 `npm install --global --production windows-build-tools`
 
@@ -65,9 +65,18 @@ Import Account
 
 `npm start`
 
+Download win sdk 8.1
+
+https://developer.microsoft.com/zh-tw/windows/downloads/sdk-archive
+
 ##Overcome Ethe
  Private Data on public chain - extra encryption
  Big File -interplanetary file System
  Scale - Ethereum Sharing
  Private Chain - Azure
-
+ 
+ ##Use case
+ FirstBlood -> Sport
+ Dynamic -> P to P Insurance
+UJO -> Music Store
+Golem ->Super computer  
