@@ -51,6 +51,18 @@ Ganache
 RPC
 `127.0.01:7545`
 
-Import Account
+Import Account 
+
+##Window Ganache Setup
+
+`npm install --global --production windows-build-tools`
+
+`git clone https://github.com/trufflesuite/ganache.git`
+
+`cd ganache`
+
+`npm install`
+
+`npm start`
 
 
