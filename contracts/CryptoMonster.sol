@@ -5,6 +5,7 @@ import "zeppelin-solidity/contracts/token/ERC721/ERC721Token.sol";
 
 contract CryptoMonster is ERC721Token {
 
+
     struct Monster {
         string name;
         uint level;
@@ -29,7 +30,10 @@ contract CryptoMonster is ERC721Token {
     }
 
     function battle(uint _monsterID, uint _targetID) onlyOwnerOf(_monsterID) {
-
+        require(_monsterID < monsters.length);
+        require(_targetID < monsters.length);
+        Monster storage myMonster = monsters[_monsterID];
+        //Storage would save into blockchain
     }
 
 }
