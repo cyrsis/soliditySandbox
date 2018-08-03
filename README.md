@@ -4,6 +4,10 @@ Basic Set with Local Chain
 
 ## logs
 --------------------------------
+
+August 4, 2018 1:56 am
+ - Fix the run config from the bash, speed the development by 30%
+ 
 August 3, 2018 8:28 pm
  - Finally done most of the update on my machine, would do some smart contact for now
  
