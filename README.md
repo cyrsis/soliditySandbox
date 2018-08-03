@@ -2,6 +2,12 @@
 
 Basic Set with Local Chain
 
+## logs
+--------------------------------
+August 3, 2018 8:28 pm
+ - Finally done most of the update on my machine, would do some smart contact for now
+ 
+
 July 24, 2018 10:34 am
 Setup for blockchain development
 
