@@ -4,6 +4,11 @@ Basic Set with Local Chain
 
 ## logs
 --------------------------------
+
+August 5, 2018 2:40 pm
+ - Pick up an idea for working with Estate Planning,
+   not really easy to make $$$
+   
 August 4, 2018 5:38 pm
  - start develop bunch of contract for different things
 
