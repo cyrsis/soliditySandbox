@@ -4,12 +4,14 @@ Basic Set with Local Chain
 
 ## logs
 --------------------------------
+August 4, 2018 5:38 pm
+ - start develop bunch of contract for different things
 
 August 4, 2018 1:56 am
  - Fix the run config from the bash, speed the development by 30%
  
 August 3, 2018 8:28 pm
- - Finally done most of the update on my machine, would do some smart contact for now
+ - Finally done most of the® update on my machine, would do some smart contact for now
  
 
 July 24, 2018 10:34 am
@@ -104,4 +106,13 @@ Soft -> Software Upgrade
 Hard -> whole new Branch
 
 ##ERC721 Tokens is the for gaming (non-fund)
+
+## Deployment on the main net
+
+https://infura.io/dashboard
+
+## abi 
+全称是 Application Binary Interface，即应用程序二进制接口。简单的说，就是合约对外的接口描述。
+
+
 
