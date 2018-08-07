@@ -92,7 +92,30 @@ Download win sdk 8.1
 
 https://developer.microsoft.com/zh-tw/windows/downloads/sdk-archive
 
-##Overcome Ethe
+## Metamask, sign key pairs and interact with the network
+
+## Get some free eth for rinkeby testnet
+
+https://faucet.rinkeby.io/
+
+Share your etc address in google+
+
+Put the link back to the fac
+
+## Gas Math
+ - 21000 units of gas at 20 GWEI = 0.00042 ETH.
+## Gas limit
+
+*21000 is the gas limit for standard transactions
+
+## Gas Price
+40 GWEI Gas Price will almost always get you into the next block.
+20 GWEI will usually get you within the next few blocks.
+2 GWEI will usually get you within the next few minutes.
+
+Max of 50
+
+## Overcome Eth problems
  Private Data on public chain - extra encryption
  Big File -interplanetary file System
  Scale - Ethereum Sharing
