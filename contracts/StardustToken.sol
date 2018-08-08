@@ -5,11 +5,14 @@ import "zeppelin-solidity/contracts/token/ERC20/PausableToken.sol";
 import "zeppelin-solidity/contracts/token/ERC20/MintableToken.sol";
 import "./BurnableWithEventToken.sol";
 
-contract AnnToken is BurnableWithEventToken, PausableToken, MintableToken {
 
-    string public constant symbol = "ANN";
+//MintableToken means creator can create and assign them
+contract StarDustToken is BurnableWithEventToken, PausableToken, MintableToken {
 
-    string public constant name = "Victor' Wife";
+
+    string public constant symbol = "Stardust";
+
+    string public constant name = "Timecapule Token";
 
     uint public constant decimal = 18;
 

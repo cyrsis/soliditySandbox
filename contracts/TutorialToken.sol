@@ -9,7 +9,7 @@ contract TutorialToken is StandardToken {
     uint8 public decimals = 2;
     uint public INITIAL_SUPPLY = 12000;
 
-    function TutorialToken() public {
+    constructor() public {
         totalSupply_ = INITIAL_SUPPLY;
         balances[msg.sender] = INITIAL_SUPPLY;
     }
