@@ -201,4 +201,27 @@ Ethereum Account password: YOURPASSWORD
 Ethereum private key passphrase: use online generate one
 Confirm passphrase : use online generate one
 
+Find Resource Group ->
+
+Find Deployment ->
+
+Find Azure multi member ->
+
+Copy admin site and open it in seperate tab ->
+
+Find My Account Address -> my newly account address
+
+Find ethereum RPC-Endpoint -> Open metamask
+
+Metamask Setting -> NEW RPC URL - > past the eth RCP-endpoint
+
+Metamask Refresh -> Copy the address of account
+
+Pass the addres in the admin page for sending eth to the newly created account
+
+----------- when u see the $$ in the metamask------------
+it is working
+
+
+
 
