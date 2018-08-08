@@ -89,8 +89,8 @@ Ganache
  truffle migrate
 `
 Windows
-truffle-cli compile
-truffle-cli migrate
+`truffle-cli compile`
+`truffle-cli migrate`
 
 5. Test the code
 `truffle test
@@ -127,6 +127,29 @@ Download win sdk 8.1
 https://developer.microsoft.com/zh-tw/windows/downloads/sdk-archive
 
 ## Metamask, sign key pairs and interact with the network
+
+## Windows needs 
+
+`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned`
+
+then 
+
+`chocolately` install it with powershell
+
+`choco install git.install --params "/GitAndUnixToolsOnPath`
+
+`git config --global http.sslVerify false`
+
+`npm install -g node-gyp`
+
+`npm install --global --production windows-build-tools`
+
+`npm install -g ethereumjs-testrpc`
+
+`npm install -g truffle`
+
+Dont worry about warning on the way
+
 
 ## Get some free eth for rinkeby testnet
 
