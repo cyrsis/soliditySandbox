@@ -119,9 +119,42 @@ contract StardustCrowdSales is WhitelistedCrowdsale, CappedCrowdsale, Finalizabl
 
     }
 
-    function buyToken(address benficiary) payable
+    //Lower level BuyTokens from CrowdSales.sol
+
+    function setWallet(address _wallet) onlyOwner public
     {
-    
+        require(_wallet != 0x0, "Wallet can not be null address");
+        wallet = _wallet;
+
+        emit WallentChanges(_wallet);
+    }
+
+    function pauseToken() onlyOwner
+    {
+        require(isFinalized, "Is it final?");
+        StarDustToken(token).pause();
+    }
+
+    function unpauseToken() onlyOwner
+    {
+        require(isFinalized, "Is it final?");
+        StarDustToken(token).unpause();
+    }
+
+    function beginContinousSale() onlyOwner public
+    {
+        token.transferOwership(cotinousSales);
+        continuousSale.start();
+        continuousSale.transferOwnership(owner);
+    }
+
+    function finalization() internal
+    {
+        uint256 totalSupply = token.totalSupply();
+        uint256 finalSupply = TOTAL_SHARE.mul(totalSupply).div(CROWDSALE_SHARE);
+        token.mint(walletm, FOUNDATION_SHARE.mul(totalSupply).div(TOTAL_SHARE));
+
+
     }
 
 
