@@ -2,8 +2,37 @@
 
 Basic Set with Local Chain
 
+Part 1: Setting Up Your ICO
+
+ – Step 1: Do you Need an ICO?
+ – Step 2: Familiarize Yourself with Global Legal Challenges
+ – Step 3: Write your Whitepaper
+ - Step 4: Choose your Token Type
+ - Step 5: State your Terms and Conditions
+ - Step 6: Scout your ICO Team
+ - Step 7: Choose your Blockchain Platform for the ICO
+ - Step 8: Set up your Website
+ - Step 9: Create your Issue Calendar
+ - Step 10: Smart Contracts
+ - Step 11: Setting up the Hardware
+
+Part 2: Marketing
+- Step 1: Legal Loopholes
+- Step 2: Brand Identity
+- Step 3: Develop a Story for your Coin
+- Step 4: Reach out to Journalists and Develop a Press Release
+- Step 5: Spreading your Media Coverage
+
+Part 3: Launch!
+
+## Ref
+----------------
+https://openzeppelin.org/api/docs/open-zeppelin.html
+
+
 ## logs
 --------------------------------
+
 
 August 5, 2018 2:40 pm
  - Pick up an idea for working with Estate Planning,
