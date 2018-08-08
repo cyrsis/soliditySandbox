@@ -176,5 +176,29 @@ https://infura.io/dashboard
 ## abi 
 全称是 Application Binary Interface，即应用程序二进制接口。简单的说，就是合约对外的接口描述。
 
+## Azure setup
+
+Portal Azure -> Market Place ->
+Ethereum Consortium Leader -> Deployment Model ->
+Default -> 
+
+Resource  Prefix : dcl
+vm user name: gethadmin
+Auth Type : Password
+Password: YOURPASSWORD
+Resource Group : BlockChain
+
+Consortium Member ID: 0 (because it is the first one)
+Mining Node : 2
+Mining Node replication: Locally-redundant
+Virtual Machine Size : 2x Standard D1  v2
+Transaction node: 1
+Virutal Machine Size: 1 x Standard D1 V2
+
+Network ID: default (Same network ID thus connect to each other)
+Custom Genesis Block : No
+Ethereum Account password: YOURPASSWORD
+Ethereum private key passphrase: use online generate one
+Confirm passphrase : use online generate one
 
 
