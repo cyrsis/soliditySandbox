@@ -51,6 +51,7 @@ August 3, 2018 8:28 pm
 July 24, 2018 10:34 am
 Setup for blockchain development
 
+
 1. Truffle (Boostrap the project)
 
 `sudo npm install -g truffle`
@@ -76,6 +77,7 @@ Ganache
          development: {
              host: 'localhost',
              port: '7545',
+             gas: 6721974,
              network_id: '*' // Match any network id
          }
      }
@@ -86,6 +88,9 @@ Ganache
 `truffle compile
  truffle migrate
 `
+Windows
+truffle-cli compile
+truffle-cli migrate
 
 5. Test the code
 `truffle test
