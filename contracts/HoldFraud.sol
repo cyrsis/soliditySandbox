@@ -25,10 +25,7 @@ contract HoldFraud {
 
     function payIn(uint holdTime) public payable {
         require(msg.value > 0);
-
-
         HoldRecord memory newRecord; //memory or storage
-
         newRecord.amount += msg.value;
         newRecord.unlockTime = now + holdTime;
         balance[msg.sender] = newRecord;

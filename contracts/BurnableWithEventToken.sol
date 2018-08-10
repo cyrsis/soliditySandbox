@@ -1,6 +1,6 @@
 pragma solidity ^0.4.17;
 
-import "zeppelin-solidity/contracts/token/ERC20/StandardToken.sol";
+import "openzeppelin-solidity/contracts/token/ERC20/StandardToken.sol";
 
 
 contract BurnableWithEventToken is StandardToken {

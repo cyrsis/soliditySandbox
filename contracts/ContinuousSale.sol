@@ -1,8 +1,20 @@
 pragma solidity ^0.4.11;
 
-import "zeppelin-solidity/contracts/token/MintableToken.sol";
+import "openzeppelin-solidity/contracts/math/SafeMath.sol";
+import "openzeppelin-solidity/contracts/token/ERC20/MintableToken.sol";
 
 contract ContinuousSale {
+
+
+    constructor(uint256 _rate, address _wallet, MintableToken _token) {
+        require(_rate != 0);
+        require(_wallet != 0);
+        // require(address(token) != 0x0);
+
+        rate = _rate;
+        wallet = _wallet;
+        token = _token;
+    }
     using SafeMath for uint256;
 
     // time bucket size
@@ -31,19 +43,6 @@ contract ContinuousSale {
 
     event TokenPurchase(address indexed investor, address indexed beneficiary, uint256 weiAmount, uint256 tokens);
 
-    function ContinuousSale(
-        uint256 _rate,
-        address _wallet,
-        MintableToken _token
-    ) {
-        require(_rate != 0);
-        require(_wallet != 0);
-        // require(address(token) != 0x0);
-
-        rate = _rate;
-        wallet = _wallet;
-        token = _token;
-    }
 
     function() payable {
         buyTokens(msg.sender);

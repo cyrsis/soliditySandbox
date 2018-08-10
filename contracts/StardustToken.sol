@@ -1,8 +1,8 @@
-pragma solidity ^0.4.17;
+pragma solidity ^0.4.26;
 
-import "zeppelin-solidity/contracts/token/ERC20/PausableToken.sol";
-import "zeppelin-solidity/contracts/token/ERC20/MintableToken.sol";
 import "./BurnableWithEventToken.sol";
+import "openzeppelin-solidity/contracts/token/ERC20/PausableToken.sol";
+import "openzeppelin-solidity/contracts/token/ERC20/MintableToken.sol";
 
 
 //MintableToken means creator can create and assign them

@@ -1,6 +1,6 @@
 pragma solidity ^0.4.21;
 
-import "zeppelin-solidity/contracts/token/ERC20/ERC20.sol";
+import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
 
 //Goal: In the event of death, that transfer the assets to beneficiary
 
@@ -12,8 +12,6 @@ import "zeppelin-solidity/contracts/token/ERC20/ERC20.sol";
 //E-mail
 //Mobile-no
 //Wallet Address(ERC20 transfer function)
-
-
 //
 
 
@@ -34,7 +32,6 @@ contract Mortal is Ownable {
 contract EstatePlanning is Mortal {
 
     address beneficiary;
-
     uint256 waitingPeriodLength;
     uint256 endOfWaitingPeriod;
 

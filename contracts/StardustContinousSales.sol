@@ -1,10 +1,9 @@
 pragma solidity ^0.4.11;
 
-import "zeppelin-solidity/contracts/ownership/Ownable.sol";
 import "./ContinuousSale.sol";
-import "./Stardust.sol";
+import "./StardustToken.sol";
 
-contract StardustContinuousSale is ContinuousSale, Ownable {
+contract StardustContinuousSale is ContinuousSale, Ownable  {
 
     uint256 public constant INFLATION = 8;
 

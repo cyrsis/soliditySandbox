@@ -1,10 +1,10 @@
 pragma solidity ^0.4.23;
 
-import "zeppelin-solidity/contracts/crowdsale/validation/WhitelistedCrowdsale.sol";
-import "zeppelin-solidity/contracts/crowdsale/validation/CappedCrowdsale.sol";
-import "zeppelin-solidity/contracts/crowdsale/Crowdsale.sol";
-import "zeppelin-solidity/contracts/crowdsale/distribution/FinalizableCrowdsale.sol";
+import "openzeppelin-solidity/contracts/crowdsale/Crowdsale.sol";
 import "./StardustToken.sol";
+import "openzeppelin-solidity/contracts/crowdsale/validation/WhitelistedCrowdsale.sol";
+import "openzeppelin-solidity/contracts/crowdsale/validation/CappedCrowdsale.sol";
+import "openzeppelin-solidity/contracts/crowdsale/distribution/FinalizableCrowdsale.sol";
 
 
 contract StardustCrowdSales is WhitelistedCrowdsale, CappedCrowdsale, FinalizableCrowdsale {
