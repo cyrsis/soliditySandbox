@@ -62,6 +62,7 @@ Setup for blockchain development
 - Can be other than metacoin depends on your needs
 
 `npm install openzeppelin-solidity --save`
+
 - Bring in the library for development
 
 2. Speed up the developement with local chain
@@ -107,7 +108,6 @@ Import Account
 ##Window Ganache Setup (make sure run in nodejs command)
 
 `npm install --global --production windows-build-tools`
-
 
 
 `npm -g install npm@next`
