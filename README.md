@@ -240,12 +240,18 @@ Metamask Setting -> NEW RPC URL - > past the eth RCP-endpoint
 
 Metamask Refresh -> Copy the address of account
 
-Pass the addres in the admin page for sending eth to the newly created account
+Pass the address in the admin page for sending eth to the newly created account
 
 ----------- when u see the $$ in the metamask------------
 it is working
 
+## Metamask
+ External Account -> Decouple from any network
 
+## Contract Account
+  Only available in one network 
+  
+  
 ## Transaction
 
 nonce -> none-sense
@@ -260,13 +266,33 @@ S ->
 
 ## lock
 SHA256 HASH -> Finger Print
-Nonce -> Change to make first 4 dig 0000 for the hash
+Nonce -> Change to make first 4 dig 0000 for the hash, change base of 10
+ (actually is less than some value) ,
+ 64 character long , 64 dices, 
+ 
+ The block time -> essential the time need to figure out the nonse
+ 1 block -> 15 secs (for eth)
+ -> Raise the lesser than
+ 
+ 
+ 
 
-#Token base
+# Token base
 ### Only remmeber money movement
 
-#Coin base
-###
+# Coin base
+### Can not create money out of thin air, go backward to find out the balance
+
+## Contract Account
+balance -> Amount of eth this account owns
+storage -> Data Storage for this contract (uint, string)
+code -> Raw Machine code for this contract
+
+#
+
+
+
+
 
  
 

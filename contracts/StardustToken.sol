@@ -1,4 +1,4 @@
-pragma solidity ^0.4.26;
+pragma solidity ^0.4.24;
 
 import "./BurnableWithEventToken.sol";
 import "openzeppelin-solidity/contracts/token/ERC20/PausableToken.sol";

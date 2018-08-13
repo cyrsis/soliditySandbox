@@ -1,1 +1,1 @@
-truffle compile
+truffle.cmd compile
