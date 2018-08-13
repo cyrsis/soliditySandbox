@@ -30,6 +30,9 @@ Part 3: Launch!
 https://openzeppelin.org/api/docs/open-zeppelin.html
 
 
+## use infura for deply contract
+
+`npm install truffle-hdwallet-provider --save`
 ## logs
 --------------------------------
 

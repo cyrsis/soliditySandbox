@@ -1,1 +1,1 @@
-truffle.cmd migrate
+truffle.cmd migrate --rest --network development
