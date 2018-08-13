@@ -246,5 +246,28 @@ Pass the addres in the admin page for sending eth to the newly created account
 it is working
 
 
+## Transaction
+
+nonce -> none-sense
+to -> address of count this money going to
+value -> amount
+gasPrice -> Amount of edther the sender is willing to pay per unit gas to get this transaction processed
+startGas/gaslimit -> Unit of gas  that this transaction can consume
+V ->
+R -> Complicated Crytographic piece of data from sender's private key
+S ->
+
+
+## lock
+SHA256 HASH -> Finger Print
+Nonce -> Change to make first 4 dig 0000 for the hash
+
+#Token base
+### Only remmeber money movement
+
+#Coin base
+###
+
+ 
 
 
