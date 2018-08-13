@@ -6,7 +6,7 @@ import "openzeppelin-solidity/contracts/token/ERC20/MintableToken.sol";
 contract ContinuousSale {
 
 
-    constructor(uint256 _rate, address _wallet, MintableToken _token) {
+    constructor(uint256 _rate, address _wallet, MintableToken _token) public {
         require(_rate != 0);
         require(_wallet != 0);
         // require(address(token) != 0x0);
@@ -44,7 +44,7 @@ contract ContinuousSale {
     event TokenPurchase(address indexed investor, address indexed beneficiary, uint256 weiAmount, uint256 tokens);
 
 
-    function() payable {
+    function() payable public {
         buyTokens(msg.sender);
     }
 
@@ -84,7 +84,7 @@ contract ContinuousSale {
         weiRaised = weiRaised.add(weiAmount);
 
         token.mint(beneficiary, tokens);
-        TokenPurchase(msg.sender, beneficiary, weiAmount, tokens);
+        emit TokenPurchase(msg.sender, beneficiary, weiAmount, tokens);
 
         forwardFunds();
 

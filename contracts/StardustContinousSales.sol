@@ -17,7 +17,7 @@ contract StardustContinuousSale is ContinuousSale, Ownable  {
         uint256 _rate,
         address _wallet,
         MintableToken _token
-    ) ContinuousSale(_rate, _wallet, _token) {
+    ) ContinuousSale(_rate, _wallet, _token) public  {
     }
 
     modifier whenStarted() {
@@ -25,13 +25,13 @@ contract StardustContinuousSale is ContinuousSale, Ownable  {
         _;
     }
 
-    function start() onlyOwner {
+    function start() onlyOwner public {
         require(!started);
 
         // initialize issuance
         uint256 finalSupply = token.totalSupply();
         uint256 annualIssuance = finalSupply.mul(INFLATION).div(100);
-        issuance = annualIssuance.mul(BUCKET_SIZE).div(1 years);
+        issuance = annualIssuance.mul(BUCKET_SIZE).div(365 days);
 
         started = true;
     }
@@ -40,22 +40,22 @@ contract StardustContinuousSale is ContinuousSale, Ownable  {
         super.buyTokens(beneficiary);
     }
 
-    function setWallet(address _wallet) onlyOwner {
+    function setWallet(address _wallet) onlyOwner public {
         require(_wallet != 0x0);
         wallet = _wallet;
-        WalletChange(_wallet);
+      emit  WalletChange(_wallet);
     }
 
-    function setRate(uint256 _rate) onlyOwner {
+    function setRate(uint256 _rate) onlyOwner public {
         rate = _rate;
-        RateChange(_rate);
+       emit  RateChange(_rate);
     }
 
-    function unpauseToken() onlyOwner {
+    function unpauseToken() onlyOwner public {
         StarDustToken(token).unpause();
     }
 
-    function pauseToken() onlyOwner {
+    function pauseToken() onlyOwner public {
         StarDustToken(token).pause();
     }
 }

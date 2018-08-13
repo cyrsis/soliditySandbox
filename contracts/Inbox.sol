@@ -5,8 +5,7 @@ contract Inbox {
     string public message;
 
 
-
-    constructor(string initMessage){
+    constructor(string initMessage) public {
         message = initMessage;
 
     }
