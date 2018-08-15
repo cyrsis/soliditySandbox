@@ -1,5 +1,5 @@
-var Inbox = artifacts.require("./Inbox.sol");
+var Inbox = artifacts.require("./Hello.sol");
 
 module.exports = function(deployer) {
-    deployer.deploy(Inbox,"Hello there");
+    deployer.deploy(Inbox);
 };

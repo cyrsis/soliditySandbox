@@ -291,7 +291,17 @@ balance -> Amount of eth this account owns
 storage -> Data Storage for this contract (uint, string)
 code -> Raw Machine code for this contract
 
-#
+# Solidity Debug
+Truffle console -> For testing contract
+
+`truffle console`
+
+Only use Async code to interact with the contract
+
+`var hw`
+`Hello.deployed().then(function(deployed){hw=deployed;});`
+`hw.sayHello.call()`  Call direction function 
+
 
 
 
