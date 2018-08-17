@@ -14,14 +14,26 @@ module.exports = {
         //     network_id: "*"
         // },
         rinkeby: {
-            provider: function() {
+            provider: function () {
                 return new HDWalletProvider(mnemonic,
-                    "https://rinkeby.infura.io/v3/API");
-                    },
+                    "https://rinkeby.infura.io/v3/APIKEY");
+            },
             gas: 4500000,
             gasPrice: 25000000000,
             network_id: "4"
-        }
+        },
+        // kovan: {
+        //     provider: new HDWalletProvider(mnemonic, 'https://kovan.infura.io'),
+        //     network_id: '*',
+        //     gas: 4500000,
+        //     gasPrice: 25000000000
+        // },
+        // mainnet: {
+        //     provider: new HDWalletProvider(mnemonic, 'https://mainnet.infura.io'),
+        //     network_id: '*',
+        //     gas: 4500000,
+        //     gasPrice: 25000000000
+        // }
         // Match any network id
         // },
         // ropsten: {
@@ -52,7 +64,6 @@ module.exports = {
             runs: 200
         }
     },
-
 
 
 };
