@@ -1,4 +1,4 @@
-var Inbox = artifacts.require("./Hello.sol");
+var Inbox = artifacts.require("./ScoreStore.sol");
 
 module.exports = function(deployer) {
     deployer.deploy(Inbox);

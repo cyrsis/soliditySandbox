@@ -302,8 +302,14 @@ Only use Async code to interact with the contract
 `Hello.deployed().then(function(deployed){hw=deployed;});`
 `hw.sayHello.call()`  Call direction function 
 
+#example 2
+`var ss`
+`ScoreStore.deployed().then(function(deployed){ss=deployed;});`
 
 
+## Deploy in Rinkey Network
+
+`npm install --save truffle-hdwallet-provide`
 
 
 
