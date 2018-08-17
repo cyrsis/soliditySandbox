@@ -16,6 +16,7 @@
     "lite-server": "^2.3.0"
   },
   "dependencies": {
+    "ethereumjs-abi": "^0.6.5",
     "openzeppelin-solidity": "1.11.0",
     "truffle-hdwallet-provider": "0.0.6"
   }

@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 
-truffle migrate --reset
+truffle migrate --reset --network=rinkeby

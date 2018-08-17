@@ -310,7 +310,7 @@ Only use Async code to interact with the contract
 ## Deploy in Rinkey Network
 
 `npm install --save truffle-hdwallet-provide`
-
+`npm install ethereumjs-abi --save`
 
 
  
