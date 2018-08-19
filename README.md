@@ -245,8 +245,16 @@ Metamask Refresh -> Copy the address of account
 
 Pass the address in the admin page for sending eth to the newly created account
 
+
+
 ----------- when u see the $$ in the metamask------------
 it is working
+
+## SSH to first TX node (Create account in the Azure)
+
+Copy the command from Azure ->
+Paste it in the PowerShell
+
 
 ## Metamask
  External Account -> Decouple from any network
