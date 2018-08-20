@@ -254,6 +254,28 @@ it is working
 
 Copy the command from Azure ->
 Paste it in the PowerShell
+password ->"Password when creating the blockchain"
+
+# enable run command on blockchain
+`geth attach`
+
+# unlock the default account 
+`personal.unlockAccount(eth.coinbase)`
+
+# enter the passphase for the default account
+Then run mirgrate again
+
+# Run Truffle on the remote server
+`truffle console --network production`
+
+#Calling Contract from other Contract and log it out
+`var mg`
+`MyGame.deployed().then(function(deployed){mg=deployed})`
+`mg.Showcase.call('Victor').then(function(returnValue){console.log(returnValue);});`
+
+
+
+
 
 
 ## Metamask
