@@ -342,6 +342,33 @@ Only use Async code to interact with the contract
 `npm install --save truffle-hdwallet-provide`
 `npm install ethereumjs-abi --save`
 
+## Compile and deply contract in the server
+`ssh ` from Azure
+enter password
+`sudo add-apt-repository ppa:ethereum/ethereum -y`
+
+`sudo apt-get update`
+`sudo apt-get install solc -y`
+
+
+# Javascript
+`var ss`
+
+`FoodSafe.deployed().then(function(deployed){s = deployed;});`
+
+`ss.AddNewLocation(1000,"The productor","123")`
+`ss.AddNewLocation(2000,"The supplier","123")`
+`ss.AddNewLocation(3000,"The store","123")`
+
+# Check the getter function
+`ss.getLocation.call(1).then(function(retval){console.log(retval)})`
+`ss.getLocation.call(2).then(function(retval){console.log(retval)})`
+`ss.getLocation.call(3).then(function(retval){console.log(retval)})`
+
+# Compile the contract in the Server (Advance userage)
+``
+
+
 
  
 
